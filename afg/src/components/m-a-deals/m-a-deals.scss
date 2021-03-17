@@ -1,0 +1,141 @@
+.m-a-deals {
+    background-color: #f9f9f9;
+    padding-top: 156px;
+
+    p {
+        font-family: 'Raleway-Regular';
+        width: 84%;
+        margin: auto;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: 'PF Centro Slab Pro-Medium';
+        font-size: 24px;
+        color: #394b5f;
+        text-align: center;
+        margin-top: 50px;
+        font-weight: 100;
+    
+    }
+
+    span {
+        font-family: 'Raleway-Bold';
+
+    }
+}
+
+.m-a-deals__main-link {
+    color: #F39F18;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.m-a-deals__common-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-top: 75px;
+}
+.m-a-deals__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 16.5%;
+
+    img {
+        max-width: 75px;
+        max-height: 60px;
+        margin-bottom: 45px;
+    }
+
+    span {
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            height: 1px;
+            background-color: #f39f18;
+            width: 58px;
+            bottom: 15px;
+            left: 50%;
+            transform: translate(-50%,0);
+
+        }
+    }
+
+    a {
+        font-family: 'Raleway-Bold';
+        font-size: 13px;
+        color: #111111;
+        width: 83%;
+        line-height: 1.4;
+
+        &:hover {
+            color: #f39f18;
+            text-decoration: none;
+        }
+    }
+
+}
+
+.m-a-deals__common-block-two {
+    display: flex;
+    justify-content: center;
+    margin-top: 67px;
+}
+
+.m-a-deals__order-escort {
+    background-color: #e5e5e5;
+    margin-top: 100px;
+}
+
+.m-a-deals__button {
+    padding-top: 28px;
+    padding-bottom: 15px;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+    .m-a-deals__block {
+        width: 30%;
+        margin-bottom: 30px;
+    }
+
+    .common-styles__headline::after {
+        left: 37.5%;
+    }
+
+    .m-a-deals__common-block-two {
+        margin-top: 22px;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .m-a-deals p {
+        width: 89%;
+    }
+
+    .m-a-deals__block {
+        margin: 15px 0;
+        width: 100%;
+    }
+
+    .m-a-deals__common-block-two {
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+
+}
+
+
+
+

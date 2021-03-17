@@ -1,0 +1,222 @@
+
+.contact-us {
+    background-color: #161616;
+
+    span {
+        font-size: 50px;
+    }
+
+    h2 {
+        position: relative;
+        padding-left: 10px;
+        padding-bottom: 5px;
+
+        &::after {
+            top: 54px;
+            left: 11px;
+            height: 2px;
+            width: 160px;
+        }
+    }
+
+    h3 {
+        margin-left: 25px;
+        color: #fff;
+        font-size: 16px;
+        margin-top: 62px;
+    }
+
+    button {
+        background-color: #ffc600;
+        height: 34px;
+        width: 110px;
+        text-transform: uppercase;
+        font-size: 16px;
+        border: none;
+        margin-top: 15px;
+        margin-left: 9px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #FFEA05;
+            transition: 0.5s;
+
+        }
+    }
+}
+
+
+.contact-us__common {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact-us__block {
+    display: flex;
+    justify-content: space-between;
+    height: 652px;
+}
+
+.contact-us__block-two {
+    background-color: #2046b3;
+    width: 60%;
+    box-sizing: border-box;
+    padding-left: 75px;
+    padding-top: 45px;
+
+
+    input {
+        display: block;
+        height: 35px;
+        border: 2px solid #fff;
+        background: transparent;
+        margin: 9px;
+        box-sizing: border-box;
+        padding-left: 10px;
+        
+        &::-webkit-input-placeholder {
+            color: #fff;
+        }
+    }
+}
+
+.contact-us__block-one {
+    width: 40%;
+}
+
+.contact-us__input-block {
+    display: flex;
+}
+
+.contact-us__input-name {
+    width: 63.6%;
+}
+
+.contact-us__input-mobile {
+    width: 24.5%;
+}
+
+.contact-us__input-email {
+    width: 36.3%;
+}
+
+.contact-us__input-message {
+    width: 63.6%;
+}    
+
+.contact-us__location {
+
+    p {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    span {
+        font-size: 12px;
+        color: #fff;
+        margin-left: 20px;
+    }
+}
+
+.contact-us__location-data {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.contact-us__block-icon {
+    position: relative;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 75px;
+
+
+    &::before {
+        content: '';
+        background-color: #7386bc;
+        position: absolute;
+        top: -8px;
+        left: 0;
+        height: 2px;
+        width: 410px;
+    }
+   
+    img{
+        margin: 0 6px;
+    }
+}
+
+
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+    .contact-us__block-one {
+        width: 40%;
+    }
+
+    .contact-us__block-two {
+        width: 60%;
+    }
+
+    .contact-us__block-two {
+        padding-left: 20px;
+    }
+
+    .contact-us__input-name, .contact-us__input-message {
+        width: 85%;
+    }
+
+    .contact-us__input-mobile {
+        width: 35%;
+    } 
+
+    .contact-us__input-email {
+        width: 46%;
+    }
+
+    .contact-us__block-icon::before {
+        width: 285px;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .contact-us__block {
+        flex-wrap: wrap;
+    }
+
+    .contact-us__block-one {
+        width: 100%;
+    }
+
+    .contact-us__block-two {
+        width: 100%;
+    }
+
+    .contact-us__block {
+        height: auto;
+    }
+
+    .contact-us__block-two {
+        padding-left: 15px;
+    }
+
+    .contact-us__input-name, .contact-us__input-message {
+        width: 90%;
+    }
+
+    .contact-us__input-mobile {
+        width: 41.5%;
+    }
+
+    .contact-us__input-email {
+        width: 42%;
+    }
+
+    .contact-us__block-icon::before {
+        width: 228px;
+    }
+
+    .contact-us__block-icon {
+        margin-bottom: 35px;
+    }
+}

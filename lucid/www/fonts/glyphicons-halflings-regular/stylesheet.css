@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'GLYPHICONS Halflings';
+    src: url('GLYPHICONSHalflings-Regular.eot');
+    src: url('GLYPHICONSHalflings-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GLYPHICONSHalflings-Regular.woff2') format('woff2'),
+        url('GLYPHICONSHalflings-Regular.woff') format('woff'),
+        url('GLYPHICONSHalflings-Regular.ttf') format('truetype'),
+        url('GLYPHICONSHalflings-Regular.svg#GLYPHICONSHalflings-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

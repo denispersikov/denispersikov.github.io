@@ -1,0 +1,129 @@
+
+.our-team {
+    background-color: #161616;
+
+    span {
+        font-size: 50px;
+    }
+
+    h2 {
+        padding-top: 70px;
+        position: relative;
+
+        &::after {
+            top: 122px;
+            left: 72px;
+            height: 2px;
+            width: 82px;
+        }
+    }
+}
+
+.our-team__common {
+    background: #fff;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.our-team__headline-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-team__text-one {
+    font-family: 'MyriadPro-BoldSemiExtIt';
+    font-size: 16px;
+}
+
+.our-team__text-two {
+    font-size: 14px;
+    color: #595959;
+}
+
+.our-team__block-text {
+    width: 70%;
+    margin-top: 68px;
+}
+
+.our-team__item-block-common {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 18px;
+    padding-bottom: 133px;
+}
+
+.our-team__item {
+    text-align: center;
+    margin-left: 20px;
+
+    img {
+        height: 187px;
+        width: 180px;
+        object-fit: cover;
+        object-position: right;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: -15px;
+    }
+
+    p {
+        font-family: 'MyriadPro-BoldSemiExtIt';
+        font-size: 16px;
+
+    }
+}
+
+
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+    .our-team__item-block-common {
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+
+    }
+
+    .our-team__item {
+        width: 36%;
+    }
+
+    .our-team h2 {
+        padding-left: 20px;
+    }
+
+    .our-team__block-text {
+        width: 69%;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .our-team__headline-block {      
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .our-team__block-text {
+        width: 81%;
+        margin-top: 15px;
+    }
+
+    .our-team h2 {
+        padding-top: 40px;
+
+        &::after {
+            top: 93px;
+        }
+    }
+
+    .our-team__item-block-common {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}

@@ -1,0 +1,179 @@
+
+.quality-price-plan {
+    h4 {
+        font-size: 14px;
+        color: #008ed6;
+        text-transform: uppercase;
+        margin-top: 65px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 36px;
+        color: #1a1a1a;
+        font-weight: 600;
+        margin-bottom: 25px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+.quality-price-plan__block-comon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+
+    h3 {
+        font-size: 24px;
+        color: #1a1a1a;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 18px;
+        line-height: 1;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 100;
+    }
+
+    h6 {
+        font-size: 60px;
+        font-weight: 600;
+        color: #1a1a1a;
+        line-height: 1;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-top: 17px;
+        position: relative;
+    }
+
+    h5 {
+        font-size: 18px;
+        color: #999999;
+        margin-top: 5px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    p {
+        font-size: 18px;
+        color: #999999;
+        padding: 30px 20px;
+        margin-bottom: 0;
+        line-height: 1.5;
+    }
+
+    button {
+        width: 160px;
+        height: 50px;
+        border: 1px solid #e0e0e0;
+        color: #008ed6;
+        border-radius: 4px;
+        background: transparent;
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+}
+.quality-price-plan__posit {
+    position: absolute;
+    top: 17px;
+    left: 86px;
+    font-size: 25px;
+}
+.quality-price-plan__lacinia {
+    color: #008ed6;
+}
+
+.quality-price-plan__block {
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    width: 23%;
+    cursor: pointer;
+}
+
+.quality-price-plan__block .quality-price-plan__price-block--active {
+    background: #008ed6;
+
+    span, h6 ,h5 {
+        color: #fff;
+    }
+}
+.quality-price-plan__block .quality-price-plan__button--active {
+    background: #008ed6;
+    color: #fff;
+
+}
+.quality-price-plan__block .quality-price-plan__headline {
+    color: #008ed6;
+}
+
+.quality-price-plan__block:hover {
+
+    .quality-price-plan__price-block {
+        background: #008ed6;
+        transition: 0.7s;
+    }
+
+    h5,h6 {
+        color: #fff;
+        transition: 0.7s;
+    }
+
+    h3 {
+        color: #008ed6;
+        transition: 0.7s;
+    }
+
+    button {
+        background: #008ed6;
+        color: #fff;
+        transition: 0.7s;
+        cursor: pointer;
+    }
+}
+///////////////////////  media  ////////////////////////
+
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+    .quality-price-plan h2 {
+        font-size: 25px;
+    }
+
+    .quality-price-plan__block-comon {
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .quality-price-plan__block {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .quality-price-plan h2 {
+        font-size: 23px;
+    }
+
+    .quality-price-plan__block-comon {
+        flex-wrap: wrap;
+    }
+
+    .quality-price-plan__block {
+        width: 100%;
+        margin: 0px 15px;
+        margin-bottom: 15px;
+    }
+
+    .quality-price-plan {
+        margin-bottom: -80px;
+    }
+}
+

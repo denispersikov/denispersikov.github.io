@@ -1,0 +1,318 @@
+//////////////////////HEADER НАЧАЛО
+
+.header {
+    background: url(./../www/img/header_bg.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+  
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #394b5f;
+        width: 100%;
+        height: 100%;
+        opacity: .85;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 6px;
+        left: 0;
+        bottom: 0px;
+        background: url(./../www/img/bah_1.png);
+    }
+}
+
+.header__armata-group-common {
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        font-family: 'PF Centro Slab Pro';
+        color: #fff;
+        border-bottom: #F39F18 8px solid;
+        font-size: 48px;
+        margin-bottom: 44px;
+    }
+
+    a {
+        font-family: 'Raleway-SemiBold';
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 12px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    img {
+        padding-right: 10px;
+    }
+}
+
+.header__armata-group-block {
+    margin-top: 185px;
+}
+
+.header__form {
+    background-color: rgba(36,51,67,.8);
+    max-width: 360px;
+    border-bottom: #1A222B 4px solid;
+    margin-top: 105px;
+    margin-bottom: 148px;
+
+    h3 {
+        font-family: 'PF Centro Slab Pro-Medium';
+        font-weight: 300;
+        font-size: 28px;
+        color: #fff;
+        margin-left: 40px;
+        margin-top: 24px;
+        margin-bottom: -7px;
+    }
+
+    p {
+        font-family: 'PF Centro Slab Pro-Medium';
+        font-size: 13px;
+        color: #97a4b2;
+        width: 67%;
+        margin-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+    input {
+        display: block;
+        padding-left: 40px;
+        border: none;
+        border-top: 2px solid #1f2a36;
+        background-color: #34465A;
+        height: 46px;
+        width: 283px;
+        margin: auto;
+        margin-bottom: 18px;
+    }
+
+    label {
+        font-family: 'Raleway-Regular';
+        font-size: 13px;
+        color: #97a4b2;
+        padding-left: 40px;
+    }   
+}
+
+
+///////////////MENU НАЧАЛО
+
+.menu, .menu-meida {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+
+    a {
+        font-family: 'Raleway-Regular';
+        margin: 0 10px;
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+            color: #F39F18;
+            transition: all .5s ease;
+        }
+    }
+
+    .menu__item a {
+        color: #F39F18;
+        text-decoration: underline;
+    }
+
+    .menu__phone-number {
+        font-family: 'Roboto-Bold',sans-serif;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 700;
+        margin-left: 115px;
+    }
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-media__burger {
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.menu__img-phone {
+    display: flex;
+    align-items: center;
+}
+
+.menu-meida {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+
+.menu-meida__block {
+    display: none;
+}
+
+.menu-media__burger {
+    display: none;
+}
+
+.menu-meida {
+    display: flex;
+
+   li  {
+        padding: 5px 0;
+    }
+}
+
+.menu__item-two a {
+    width: 25%;
+    display: block;
+}
+
+.menu-meida__list {
+    background: #546374de;
+    margin-right: 33px;
+}
+
+///////////////MENU КОНЕЦ
+
+//////////////////////HEADER Конец
+
+// media  //
+
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+    .header__armata-group-common h1 {
+        font-size: 34px;
+        margin-bottom: 22px;
+    }
+
+    .header__form label {
+        padding-left: 26px;
+    }
+
+    .menu li a {
+        display: none;
+    }
+
+    .header__armata-group-common a {
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+
+    .header__armata-group-block {
+        width: 44%;
+    }
+
+    .header__form {
+        max-width: 330px;
+    }
+    
+    .header__armata-group-common {
+        margin: 0 10px;
+    }
+
+    .menu {
+        margin: 0 10px;
+    }
+    
+    .menu-media__burger {
+        display: block;
+    }
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .menu li a {
+        display: none;
+    }
+
+    .menu .menu__phone-number {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .menu__logo {
+        width: 65px;
+    }
+
+    .menu-media__burger {
+        padding-left: 20px;
+
+        img {
+            width: 30px;
+        }
+    }
+
+    .menu {
+        align-items: end;
+    }
+
+    .header__armata-group-common {
+        flex-wrap: wrap;
+    }
+
+    .header__armata-group-common h1 {
+        font-size: 38px;
+        margin-bottom: 30px;
+    }
+
+    .header__armata-group-block {
+        margin: 0 5px;
+        margin-top: 90px;
+    }
+
+    .header__armata-group-common a {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .header__form p {
+        width: 81%;
+        margin-left: 20px;
+    }
+
+    .header__form h3 {
+        margin-left: 20px;
+    }
+
+    .header__form label {
+        padding-left: 27px;
+    }
+
+    .header__form input {
+        height: 40px;
+        width: 86%;
+    }
+
+    .header__form {
+        margin-top: 35px;
+        margin-bottom: 58px;
+    }
+    
+    .menu-media__burger {
+        display: block;
+    }
+}

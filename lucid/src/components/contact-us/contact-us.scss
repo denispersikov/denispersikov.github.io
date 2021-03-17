@@ -1,0 +1,191 @@
+
+.contact-us {
+    background: #ededed;
+
+    h4 {
+        font-size: 14px;
+        color: #008ed6;
+        text-transform: uppercase;
+        margin-top: 65px;
+        padding-top: 65px;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    h2 {
+        font-size: 36px;
+        color: #1a1a1a;
+        font-weight: 600;
+        margin-bottom: 25px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+}
+
+.contact-us__common {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.contact-us__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us__icon {
+    color: #008ed6;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.contact-us__phone,
+.contact-us__fax {
+    font-size: 18px;
+    color: #999999;
+    margin: 8px 0;
+}
+
+.contact-us__form {
+    background: #15141a;
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.contact-us__textarea {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+    button {
+        width: 160px;
+        height: 50px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+        background: #008ed6;
+        border-radius: 5px;
+        border: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        cursor: pointer;
+
+        &:hover {
+            background: #fff;
+            color: #008ed6;
+            transition: 0.5s;
+        }
+    }
+}
+
+.contact-us__block-input-common {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+    input,textarea {
+        display: block;
+        height: 25px;
+        width: 300px;
+        padding: 12px;
+        border-radius: 5px;
+        border: 1px solid #444348;
+        margin-bottom: 20px;
+        background: transparent;
+        color: #fff;
+    }
+}
+ 
+    .contact-us__textarea textarea {
+        height: 168px;
+        margin-left: 27px;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .contact-us__google-maps {
+        margin-top: 15px;
+    }
+
+    //////////////////////// media  /////////////////////////
+
+
+    @media screen and (min-width: 750px) and (max-width: 1170px) {
+
+        .contact-us__block-input-common {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .contact-us__textarea textarea {
+            margin-left: 0;
+        }
+
+        .contact-us h2 {
+            font-size: 25px;
+        }
+
+        .contact-us__common {
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 40px;
+        }
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 750px) {
+
+        .contact-us h2 {
+            font-size: 23px;
+        }
+
+        .contact-us__common {
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 45px;
+        }
+
+        .contact-us__block {
+            margin-bottom: 15px;
+        }
+
+        .contact-us__block-input-common {
+            flex-direction: column;
+        }
+
+        .contact-us__form {
+            width: 100%;
+        }
+
+        .contact-us__block-input-common input {
+            height: 18px;
+            width: 220px;
+            margin: 14px auto;
+       
+        }
+
+        .contact-us__textarea textarea {
+            height: 130px;
+            width: 220px;
+            margin: auto;
+        }
+
+        .contact-us__textarea button {
+            width: 110px;
+            height: 45px;
+            line-height: 1.4;
+            font-size: 12px;
+            margin: auto;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+    }
+

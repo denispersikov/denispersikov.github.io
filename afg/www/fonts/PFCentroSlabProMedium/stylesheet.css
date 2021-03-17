@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'PF Centro Slab Pro';
+    src: url('PFCentroSlabPro-Medium.eot');
+    src: url('PFCentroSlabPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PFCentroSlabPro-Medium.woff2') format('woff2'),
+        url('PFCentroSlabPro-Medium.woff') format('woff'),
+        url('PFCentroSlabPro-Medium.ttf') format('truetype'),
+        url('PFCentroSlabPro-Medium.svg#PFCentroSlabPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

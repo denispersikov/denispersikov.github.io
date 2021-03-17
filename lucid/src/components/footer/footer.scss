@@ -1,0 +1,41 @@
+
+.footer {
+    background: #15141a;
+
+    p {
+        font-size: 14px;
+        color: #444348;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding-bottom: 30px;
+        margin-top: 5px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+.footer__icon-block {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer__icon {
+    font-size: 15px;
+    padding: 20px;
+    color: #444348;
+    margin-top: 20px;
+    cursor: pointer;
+
+    &:hover {
+        color: #008ed6;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .footer p {
+        font-size: 10px;
+    }
+}
+

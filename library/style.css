@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(./img/bg.jpg);
+    color: #fff;
+}
+
+
+.block-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 20px;
+}
+
+button {
+    cursor: pointer;
+    height: 30px;
+    color: #fff;
+    background: #cd630fa8;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #cd640fec;
+    transition: 0.5s;
+
+}
+
+.serch {
+    height: 33px;
+    width: 70px;
+}
+
+
+
+.content input {
+    display: flex;
+    width: 100%;
+}
+
+.inpId {
+    width: 30px;
+}
+
+.button-add {
+    display: flex;
+    justify-content: center;
+}
+
+.inpRender {
+    width: 71px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.button-common {
+    display: flex;
+    justify-content: center;
+}
+
+.button-common button {
+    margin: 0 2px;
+}
+
+.table-common {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.headline th {
+    padding: 20px 0px;
+}
+
+.serch-common {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.poisk {
+    width: 210px;
+    padding: 7px;
+
+}
+
+td {
+    width: 320px;
+    margin: 8px 0;
+}
+
+td input {
+    text-align: center;
+}
+
+.reg {
+    border: 2px solid red;
+    background: #ff00005c;
+    color: #fff;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 1170px) {
+
+    .table-common {
+        justify-content: initial;
+    }
+
+    .headline th {
+        padding: 20px 30px;
+    }
+  
+} 
+
+
+

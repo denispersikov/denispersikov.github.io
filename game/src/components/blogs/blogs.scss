@@ -1,0 +1,140 @@
+
+.blogs {
+    background-color: #161616;
+
+    h2 {
+        padding-top: 45px;
+        position: relative;
+
+        &::after {
+            top: 84px;
+            left: 2px;
+            height: 2px;
+            width: 68px;
+        }
+    }
+}
+
+.blogs__common {
+    background: #fff;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 90px;
+}
+
+.blogs__menu {
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+        display: block;
+        margin: 21px 0;
+
+        &:hover {
+            transition: 0.3s;
+            color: #ffc600;
+        }
+    }
+}
+
+.blogs__common-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogs__menu {
+    margin-top: 50px;
+
+    ul {
+        margin-top: 56px;
+        margin-left: 30px;
+    }
+}
+
+.blogs__block-one .blogs__block-img {
+    position: relative;
+
+    &::before {
+        content: '';
+        background: url(./../www/img/blogs/blogs-2.1.png);
+        background-position: center;
+        position: absolute;
+        top: 0;
+        width: 178px;
+        height: 100%;
+    }
+}
+
+.blogs__block-one {
+    text-align: left;
+    width: 17%;
+    margin-top: 30px;
+
+    img {
+        width: 178px;
+        height: 207px;
+    }
+
+    h3 {
+        color: #ffc600;
+    }
+
+    .blogs__text-one {
+        font-size: 15px;
+    }
+
+    .blogs__text-two {
+        font-family: 'MyriadPro-BoldSemiExtIt';
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+    .blogs h2 {
+        margin-left: 20px;
+    }
+
+    .blogs__block-one {
+        width: 30%;
+        margin-top: 60px;
+    }
+
+    .blogs__block-one:nth-child(4) {
+        display: none;
+    }
+
+    .blogs__menu {
+        margin-top: 11px;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+
+    .blogs__block-one:nth-child(4) {
+        display: none;
+    }
+
+    .blogs__common-block {
+        flex-direction: column;
+    }
+
+    .blogs__menu {
+        margin: auto;
+    }
+
+    .blogs__block-one {
+        width: 60%;
+        margin: auto;
+        padding: 15px 0;
+    }
+
+}
+

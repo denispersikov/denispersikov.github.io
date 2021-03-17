@@ -1,0 +1,262 @@
+.property-valuation {
+    background-color: #f9f9f9;
+    position: relative;
+
+    p {
+        font-family: 'Raleway-Regular';
+        font-size: 15px;
+        color: #333333;
+        margin: auto;
+        width: 70%;
+        margin-top: 55px;
+    }
+}
+
+.property-valuation__assessment {
+    color: #F39F18;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.property-valuation__headline {
+    margin: 0;
+    padding-top: 92px;
+}
+.property-valuation__bold {
+
+    font-family: 'Roboto-Bold';
+
+}
+
+.property-valuation__logo-bg {
+    background: url(./../www/img/Lay.png) no-repeat;
+    width: 100%;
+    height: 176px;
+    background-position: center;
+    position: absolute;
+    top: 592px;
+}
+
+.property-valuation__common-bg {
+    background: url(./../www/img/s1_gray_bg.png) no-repeat;
+    height: 691px;
+    background-position: center;
+    padding-top: 131px;
+}
+
+.property-valuation__item-bg {
+    background: url(./../www/img/bg2.png) no-repeat;
+    height: 100px;
+    background-position: 48%;
+    background-size: cover;
+    position: absolute;
+    top: 722px;
+    left: 0;
+    width: 100%;
+
+}
+
+.property-valuation__item-bg-two {
+    background: url(./../www/img/Rectangle.png) no-repeat;
+    height: 230px;
+    position: absolute;
+    top: 820px;
+    left: 0;
+    width: 100%;
+}
+
+.property-valuation__assessment-common {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 1;
+
+    a {
+        font-family: 'PF Centro Slab Pro-Medium';
+        color: #F39F18;
+        font-size: 22px;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    p {
+        font-family: 'Raleway-Regular';
+        font-size: 15px;
+        color: #111;
+        margin: 0;
+        margin-top: 18px;
+        border-bottom: #dee1e5 1px solid;
+        padding-bottom: 20px;
+    }
+}
+
+.property-valuation__img-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.property-valuation__assessment {
+    width: 28%;
+}
+
+.property-valuation__assessment .property-valuation__text {
+    color: #f3f3f3;
+}
+.property-valuation__one {
+    position: absolute;
+    top: -45px;
+    right: 403px;
+}
+
+.property-valuation__two {
+    position: absolute;
+    top: 1px;
+    left: 22px;
+}
+
+.property-valuation__three {
+    position: absolute;
+    top: 210px;
+    left: 27px;
+}
+
+.property-valuation__four {
+    position: absolute;
+    top: 442px;
+    left: 25px;
+}
+
+.property-valuation__five {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+}
+
+.property-valuation__six {
+    position: absolute;
+    top: 211px;
+    right: 5px;
+}
+
+.property-valuation__seven {
+    position: absolute;
+    top: 442px;
+    right: 6px;
+}
+
+.property-valuation__eight {
+    position: absolute;
+    top: 493px;
+    right: 396px;
+    z-index: 3;
+}
+
+.property-valuation__order-rating {
+    background: url(./../www/img/Rect.png);
+    position: relative;
+    top: 97px; 
+}
+
+.property-valuation__button {
+    padding-top: 35px;
+    padding-bottom: 23px;
+    margin-top: 29px;
+
+    &::before {
+        content: '';
+        background: url(./../www/img/bah_2.png);
+        position: absolute;
+        height: 6px;
+        width: 100%;
+        bottom: -5px;
+        transform: rotate(180deg);
+    }
+}
+
+// media //
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+    .property-valuation p {
+        width: 75%;
+        text-align: center;
+    }
+
+    .property-valuation__assessment-common {
+        justify-content: center;
+    }
+
+    .property-valuation__assessment-common .property-valuation__assessment {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        width: 41%;
+        margin-left: 50px;
+    }
+
+    .property-valuation__assessment-common a {
+        width: 80%;
+    }
+
+    .property-valuation__button {
+        margin-top: -18px;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .property-valuation__assessment-common .property-valuation__assessment {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 30px;
+    }
+
+    .property-valuation p {
+        width: 88%;
+        text-align: center;
+    }
+
+    .property-valuation__logo-bg {
+        display: none;
+    }
+
+    .property-valuation__assessment p {
+        width: 100%;
+        text-align: left;
+    }
+
+    .property-valuation__common-bg {
+        padding-top: 70px;
+    }
+
+    .property-valuation__item-bg,
+    .property-valuation__item-bg-two {
+        display: none;
+    }
+
+    .property-valuation__button {
+        margin-top: 808px;
+    }
+
+    .property-valuation__assessment-common {
+        background: #394B5F;
+        height: 1526px;
+    }
+
+    
+    .property-valuation__assessment-common .property-valuation__assessment {
+        padding: 35px 0;
+    }
+
+}
+
+

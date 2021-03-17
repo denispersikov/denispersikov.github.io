@@ -1,0 +1,19 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-ejs": "^5.1.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "gulp-rename": "^2.0.0"
+  }
+}

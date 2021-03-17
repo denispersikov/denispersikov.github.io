@@ -1,0 +1,766 @@
+@font-face {
+  font-family: 'Abraham Lincoln';
+  src: url("./fonts/AbrahamLincoln/AbrahamLincoln.woff2") format("woff2"), url("./fonts/AbrahamLincoln/AbrahamLincoln.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("./fonts/Roboto-Regular/Roboto-Regular.woff2") format("woff2"), url("./fonts/Roboto-Regular/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Roboto-MediumItalic';
+  src: url("./fonts/Roboto-MediumItalic/Roboto-MediumItalic.woff2") format("woff2"), url("./fonts/Roboto-MediumItalic/Roboto-MediumItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap; }
+
+* {
+  cursor: url(./../www/img/cur.png), pointer; }
+
+.content {
+  width: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+  font-family: 'Roboto-Regular'; }
+
+.header__container {
+  max-width: 1920px;
+  margin: auto; }
+
+.header {
+  max-width: 1920px;
+  margin: auto; }
+  .header::before {
+    background-image: url(./../www/img/header-bg.png);
+    background-position: center;
+    background-position: 48% 0%;
+    background-repeat: no-repeat;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 893px; }
+
+.header__common {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 100; }
+  .header__menu ul {
+    display: flex;
+    align-items: baseline;
+    position: fixed;
+    top: 50px;
+    right: 182px;
+    z-index: 5; }
+  .header__menu li {
+    list-style: none; }
+  .header__menu .header_phone {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 44px;
+    z-index: 2; }
+  .header__menu a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 44px; }
+    .header__menu a:hover {
+      color: #ADC62C;
+      transition: 0.5s; }
+
+.header__logo-common::before {
+  background-image: url(./../www/img/header-one.png);
+  background-repeat: no-repeat;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 975px; }
+
+.header__logo-common::after {
+  background-image: url(./../www/img/single-grape-main.png);
+  background-repeat: no-repeat;
+  content: '';
+  position: absolute;
+  top: 639px;
+  left: 0;
+  width: 328px;
+  height: 487px; }
+
+.header__logo-common .header__number-common {
+  position: absolute;
+  top: 759px;
+  left: 166px;
+  z-index: 3; }
+
+.header__logo-common .header__number-two {
+  font-family: 'Abraham Lincoln';
+  color: #818181;
+  font-size: 38px; }
+
+.header__logo-common .header__number {
+  font-family: 'Abraham Lincoln';
+  color: #ADC62C;
+  font-size: 66px; }
+
+.header__logo-common .header__trait {
+  font-size: 66px;
+  color: #818181; }
+
+.header__logo {
+  background-color: #000;
+  width: 127px;
+  height: 127px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  position: fixed;
+  top: 0; }
+  .header__logo a {
+    font-size: 18px;
+    color: #ADC62C;
+    text-decoration: none;
+    font-weight: bold; }
+  .header__logo span {
+    color: #fff; }
+
+.header__burger-common {
+  position: relative; }
+  .header__burger-common::before {
+    background-image: url(./../www/img/header-two.png);
+    content: '';
+    position: absolute;
+    top: -39px;
+    left: -265px;
+    height: 975px;
+    background-size: cover;
+    width: 264px; }
+  .header__burger-common::after {
+    background-image: url(./../www/img/single-grape-main-2.png);
+    content: '';
+    position: absolute;
+    top: 116px;
+    right: 0;
+    width: 200px;
+    height: 237px; }
+
+.header__burger {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 73px;
+  margin-right: 60px;
+  position: relative;
+  position: fixed;
+  top: 41px;
+  right: 0;
+  z-index: 5; }
+  .header__burger:hover {
+    border: 1px solid #ADC62C;
+    transition: 0.5s; }
+
+.header__grape-block {
+  position: relative; }
+
+.header__grape-one {
+  background-image: url(./../www/img/single-grape-main-4.png);
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 100px;
+  left: 317px; }
+
+.header__grape {
+  background-image: url(./../www/img/intro-grape1-1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1014px;
+  position: absolute;
+  top: 174px;
+  background-position: center; }
+
+.header__grape-common {
+  position: relative;
+  top: 174px; }
+
+.header__botll {
+  background-image: url(./../www/img/header-botl.png);
+  height: 1101px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: 205px; }
+
+.header__botl-text h1 {
+  font-family: 'Abraham Lincoln';
+  font-size: 109px;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 14px; }
+
+.header__botl-text p {
+  font-family: 'Roboto-MediumItalic';
+  font-size: 14px;
+  line-height: 26px;
+  color: #D3D3D3;
+  width: 558px;
+  margin: auto;
+  text-align: center; }
+
+.header__grape-two {
+  background-image: url(./../www/img/single-grape-main-3.png);
+  width: 100px;
+  height: 109px;
+  position: absolute;
+  top: 395px;
+  right: 441px; }
+
+.section__two {
+  background-image: url(./../www/img/section.png);
+  height: 1494px;
+  width: 100%;
+  margin-top: -388px; }
+
+.section__two__1901-common {
+  display: flex;
+  justify-content: center;
+  padding-top: 627px;
+  position: relative; }
+
+.section__two-block {
+  border: 1px solid #ADC62C;
+  width: 579px;
+  height: 579px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+  .section__two-block a {
+    color: #CCEE1E;
+    font-size: 18px;
+    text-decoration: underline; }
+    .section__two-block a:hover {
+      color: #cbee1e9f;
+      transition: 0.5s; }
+
+.section__two-block-common {
+  border: 1px solid #ADC62C;
+  border-radius: 50%;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; }
+
+@keyframes endless-rotation {
+  0% {
+    transform: rotate(360deg); } }
+
+.section__two-under-the-block {
+  background: #00000094;
+  width: 307px;
+  height: 307px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .section__two-under-the-block p {
+    font-family: 'Abraham Lincoln';
+    color: #ADC62C;
+    font-size: 151px; }
+
+.section__two-text {
+  font-family: 'Roboto-MediumItalic';
+  position: absolute;
+  top: 388px;
+  font-size: 18px;
+  width: 565px;
+  text-align: center;
+  font-weight: 100;
+  color: #fff;
+  line-height: 30px; }
+
+.section__two-grape-one {
+  background-image: url(./../www/img/section-two-v.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 250px;
+  left: 0;
+  width: 100%;
+  height: 762px; }
+
+.section__two-grape-two {
+  background-image: url(./../www/img/section-two-v2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 173px;
+  right: 0;
+  width: 510px;
+  height: 1217px; }
+
+.section__two-grape-three {
+  background-image: url(./../www/img/single-grape-main-3.png);
+  top: 619px;
+  position: absolute;
+  right: 480px;
+  width: 100px;
+  height: 100px; }
+
+.section__two-grape-four {
+  background-image: url(./../www/img/section-two-v4.png);
+  position: absolute;
+  left: 102px;
+  width: 197px;
+  height: 190px;
+  top: 958px; }
+
+.section__two-list-one {
+  background-image: url(./../www/img/section-two-list.png);
+  position: absolute;
+  width: 205px;
+  height: 206px;
+  left: -52px;
+  top: -64px; }
+
+.section__two-list-two {
+  background-image: url(./../www/img/section-two-list-2.png);
+  position: absolute;
+  width: 205px;
+  height: 206px;
+  top: 412px;
+  left: 415px; }
+
+.section__three {
+  background-image: url(./../www/img/section-three-bg.png);
+  position: relative; }
+  .section__three h2 {
+    font-family: 'Abraham Lincoln';
+    text-align: center;
+    font-size: 86px;
+    color: #ADC62C;
+    margin-top: 44px;
+    font-weight: 100;
+    margin-bottom: 21px; }
+  .section__three p {
+    font-family: 'Roboto-MediumItalic';
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 876px;
+    text-align: center;
+    color: #fff;
+    margin: auto; }
+  .section__three a {
+    border: 1px solid #ADC62C;
+    width: 172px;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 38.5px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    z-index: 5; }
+    .section__three a:hover {
+      background-color: #ADC62C;
+      transition: 0.7s;
+      color: #000;
+      text-decoration: none; }
+
+.section__three-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 87px; }
+
+.section__three-list {
+  background-image: url(./../www/img/section-three.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding-top: 180px;
+  padding-right: 216px;
+  box-sizing: border-box; }
+
+.section__three-glass-one {
+  background-image: url(./../www/img/section-three-glass.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 404px;
+  left: 0;
+  width: 204px;
+  height: 70%; }
+
+.section__three-glass-two {
+  background-image: url(./../www/img/section-three-glass2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 276px;
+  right: 0;
+  width: 431px;
+  height: 83%; }
+
+.footer {
+  background-color: #000;
+  max-width: 1920px;
+  position: relative; }
+  .footer input {
+    width: 252px;
+    height: 54px;
+    border: 1px solid #4E4E4E;
+    box-sizing: border-box;
+    border-radius: 39px;
+    padding-left: 30px;
+    margin: 0 14px;
+    font-size: 14px; }
+    .footer input::placeholder {
+      color: #838383; }
+  .footer p {
+    font-family: 'Roboto-Regular';
+    color: #838383; }
+  .footer button {
+    width: 144px;
+    height: 54px;
+    border-radius: 39px;
+    color: #838383;
+    font-size: 14px;
+    background-color: #383838;
+    cursor: pointer; }
+    .footer button:hover {
+      background-color: #838383ab;
+      transition: 0.5s;
+      color: #fff; }
+  .footer a {
+    font-family: 'Roboto-Regular';
+    color: #ADC62C;
+    font-size: 14px; }
+
+.footer__container {
+  max-width: 1756px;
+  margin: auto; }
+
+.footer__common {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 73px;
+  padding-bottom: 60px;
+  width: 90%;
+  margin: auto;
+  margin-top: 204px; }
+
+.footer__block {
+  display: flex;
+  align-items: baseline; }
+
+.footer__winehis {
+  font-size: 14px; }
+
+.footer__follow {
+  font-size: 18px;
+  margin-right: 56px; }
+
+.carousel {
+  position: relative;
+  top: -868px; }
+
+.pop-up {
+  width: 662px;
+  height: 522px;
+  background-color: #000000f0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -331px;
+  margin-top: -180px;
+  z-index: 120; }
+  .pop-up input {
+    width: 383px;
+    height: 56px;
+    display: block;
+    margin: auto;
+    border-radius: 48.5px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    margin-bottom: 22px; }
+
+.pop-up__img-block {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 43px;
+  padding-top: 43px; }
+
+.pop-up__age {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 380px;
+  margin: auto;
+  margin-top: 42px; }
+  .pop-up__age p {
+    color: #A7A7A7;
+    font-size: 14px; }
+
+.pop-up__inout-block {
+  display: flex; }
+  .pop-up__inout-block input {
+    width: 20px;
+    height: 20px;
+    margin-left: 7px; }
+  .pop-up__inout-block label {
+    display: flex;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 24px;
+    margin-bottom: 0; }
+
+.pop-up__download {
+  width: 195px;
+  height: 84px;
+  background: #2E2E2E;
+  border-radius: 42px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .pop-up__download:hover {
+    background: #2e2e2eb0;
+    transition: 0.5s; }
+  .pop-up__download p {
+    font-size: 14px;
+    color: #fff;
+    width: 74px;
+    line-height: 16px;
+    padding-top: 14px; }
+
+.pop-up__send {
+  width: 164px;
+  height: 84px;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: 1px solid #ADC62C;
+  border-radius: 42px; }
+  .pop-up__send:hover {
+    background-color: #ADC62C;
+    transition: 0.5s;
+    color: #000; }
+
+.pop-up__button-comon {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  margin: auto;
+  margin-top: 28px; }
+
+.menu {
+  position: fixed;
+  right: 0;
+  top: 0px;
+  transition: 0.5s;
+  z-index: 100;
+  width: 400px;
+  height: 1081px;
+  background-color: #111111; }
+
+.menu__logo {
+  text-align: center;
+  margin-top: 44px; }
+  .menu__logo .menu__main-link {
+    font-size: 24px;
+    color: #ADC62C;
+    text-decoration: none;
+    font-weight: bold; }
+  .menu__logo span {
+    color: #fff; }
+
+.menu__img {
+  padding-top: 42px;
+  padding-left: 40px; }
+
+.menu__link-common {
+  padding: 0;
+  margin-top: 60px; }
+  .menu__link-common li {
+    list-style: none; }
+  .menu__link-common a {
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 23px;
+    text-decoration: none; }
+    .menu__link-common a:hover {
+      color: #787878; }
+
+.menu__social {
+  margin-top: 65px; }
+  .menu__social ul {
+    padding: 0; }
+  .menu__social a {
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #787878;
+    margin-bottom: 15px; }
+    .menu__social a:hover {
+      color: #fff; }
+
+.pop-up__common {
+  display: none; }
+
+.display-block {
+  display: block; }
+
+.display-none {
+  display: none; }
+
+@media screen and (min-width: 750px) and (max-width: 1300px) {
+  .header__burger {
+    margin-right: 35px; }
+  .header__menu ul {
+    right: 115px; }
+  .header__menu a {
+    margin: 0 30px; }
+  .section__two {
+    margin-top: -516px; }
+  .section__two-block {
+    width: 350px;
+    height: 350px; }
+  .section__two-under-the-block {
+    width: 207px;
+    height: 207px; }
+  .section__two-under-the-block p {
+    font-size: 111px; }
+  .section__two-list-one {
+    left: -91px;
+    top: -77px; }
+  .section__two-list-two {
+    top: 206px;
+    left: 196px; }
+  .section__three p {
+    max-width: 760px; }
+  .footer__common {
+    flex-wrap: wrap;
+    padding: 73px 20px; }
+  .footer__winehis {
+    margin: auto;
+    padding-bottom: 20px;
+    margin-top: 17px; }
+  .footer__follow {
+    margin-right: 0; }
+  .header__botl-text h1 {
+    line-height: 1;
+    margin-top: 31px; }
+  .footer input {
+    margin-bottom: 13px; }
+  .footer__block {
+    margin-left: 12px;
+    flex-wrap: wrap;
+    justify-content: center; } }
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+  .header__menu ul {
+    display: none; }
+  .header__burger {
+    margin-right: 20px; }
+  .header__botl-text p {
+    width: 290px;
+    margin-top: 45px; }
+  .header__burger-common::before, .header__burger-common::after, .header__logo-common::before {
+    display: none; }
+  .header__logo-common .header__number-common {
+    display: none; }
+  .header__grape {
+    background-position: 67%; }
+  .header__botl-text h1 {
+    font-size: 74px;
+    margin-top: -10px; }
+  .header__grape-two {
+    right: 200px; }
+  .header__grape-one {
+    left: 211px; }
+  .section__two-grape-three {
+    right: 167px;
+    top: 92px; }
+  .section__two-block {
+    width: 280px;
+    height: 280px; }
+  .section__two-under-the-block {
+    width: 175px;
+    height: 175px; }
+  .section__two-under-the-block p {
+    font-size: 80px;
+    margin: auto; }
+  .section__two-list-one, .section__two-list-two {
+    display: none; }
+  .section__two-text {
+    top: 300px;
+    width: 290px; }
+  .section__three p {
+    max-width: 291px;
+    position: relative;
+    z-index: 3; }
+  .section__three h2 {
+    position: relative;
+    z-index: 3; }
+  .footer__common {
+    flex-wrap: wrap; }
+  .footer__follow {
+    display: none; }
+  .footer__winehis {
+    margin: auto;
+    margin-top: 10px; }
+  .footer__block {
+    flex-wrap: wrap;
+    justify-content: center; }
+  .footer input {
+    margin: 10px 5px; }
+  .footer {
+    height: 455px; }
+  .footer__common {
+    margin-top: 140px; }
+  .section__three-glass-one {
+    top: 700px; }
+  .section__two-grape-two {
+    width: 395px; }
+  .section__two-grape-four {
+    display: none; }
+  .header__logo-common::after {
+    display: none; }
+  .section__three-glass-one, .section__three-glass-two {
+    display: none; }
+  .section__three h2 {
+    font-size: 75px; }
+  .section__three-list {
+    height: 330px;
+    background-position: 34%; }
+  .menu {
+    width: 100%; } }

@@ -1,0 +1,43 @@
+
+@import './components/header/header.scss';
+
+@import './components/product-overview/product-overview.scss';
+
+@import './components/beautiful-on-every-device/beautiful-on-every-device.scss';
+
+@import './components/easy-customize/easy-customize.scss';
+
+@import './components/pricings-plans/pricings-plans.scss';
+
+@import './components/quality-price-plan/quality-price-plan.scss';
+
+@import './components/contact-us/contact-us.scss';
+
+@import './components/footer/footer.scss';
+
+
+/*//////////////////// ОБЩИЕ СТИЛИ НАЧАЛО  *////////////////////////
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}

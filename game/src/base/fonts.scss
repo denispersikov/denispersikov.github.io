@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'MyriadPro-Semibold';
+    src: url('./fonts/MyriadPro-Semibold/MyriadPro-Semibold.eot');
+    src: url('./fonts/MyriadPro-Semibold/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/MyriadPro-Semibold/MyriadPro-Semibold.woff2') format('woff2'),
+        url('./fonts/MyriadPro-Semibold/MyriadPro-Semibold.woff') format('woff'),
+        url('./fonts/MyriadPro-Semibold/MyriadPro-Semibold.ttf') format('truetype'),
+        url('./fonts/MyriadPro-Semibold/MyriadPro-Semibold.svg#MyriadPro-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadPro-BoldSemiExtIt';
+    src: url('./fonts/MyriadPro-BoldSemiExtIt/MyriadPro-BoldSemiExtIt.eot');
+    src: url('./fonts/MyriadPro-BoldSemiExtIt/MyriadPro-BoldSemiExtIt.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/MyriadPro-BoldSemiExtIt/MyriadPro-BoldSemiExtIt.woff2') format('woff2'),
+        url('./fonts/MyriadPro-BoldSemiExtIt/MyriadPro-BoldSemiExtIt.woff') format('woff'),
+        url('./fonts/MyriadPro-BoldSemiExtIt/MyriadPro-BoldSemiExtIt.ttf') format('truetype'),
+        url('./fonts/MyriadPro-BoldSemiExtIt/MyriadPro-BoldSemiExtIt.svg#MyriadPro-BoldSemiExtIt') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}

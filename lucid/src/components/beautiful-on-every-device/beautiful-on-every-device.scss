@@ -1,0 +1,106 @@
+
+.beautiful-on-every-device {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+    h3 {
+        font-size: 14px;
+        color: #008ed6;
+        text-transform: uppercase;
+        margin-top: 65px;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 36px;
+        color: #1a1a1a;
+        font-weight: 600;
+        margin-bottom: 25px;
+        margin-top: 0;
+    }
+
+    p {
+        font-size: 18px;
+        color: #999999;
+        margin: 30px 0;
+        line-height: 1.5;
+        width: 93%;
+    }
+}
+
+.beautiful-on-every-device__text {
+    margin-left: 38px;
+}
+
+.beautiful-on-every-device__icon {
+    color: #008ed6;
+    margin-right: 10px;
+}
+
+.beautiful-on-every-device__text .beautiful-on-every-device__icon-text {
+    font-size: 18px;
+    color: #1b1b1b;
+}
+////////////////////  media ///////////////////
+
+
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+    .beautiful-on-every-device h2 {
+        font-size: 25px;
+        margin-bottom: 3px;
+    }
+
+    .beautiful-on-every-device h3 {
+        margin-top: 17px;
+    }
+
+    .beautiful-on-every-device {
+        align-items: center;
+        margin-top: 75px;
+    }
+
+    .beautiful-on-every-device p {
+        margin: 10px 0;
+    }
+
+    .beautiful-on-every-device__phone img {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .beautiful-on-every-device h2 {
+        font-size: 23px;
+        margin-bottom: 5px;
+    }
+
+    .beautiful-on-every-device p {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .beautiful-on-every-device__phone {
+        margin: auto;
+    }
+
+    .beautiful-on-every-device__phone img {
+        width: 130px;
+    }
+
+    .beautiful-on-every-device {
+        flex-direction: column;
+    }
+
+    .beautiful-on-every-device__text .beautiful-on-every-device__icon-text {
+        font-size: 17px;
+        margin: 15px 0;
+    }
+
+    .beautiful-on-every-device__text {
+        margin: 0px 20px;
+    }
+}
+

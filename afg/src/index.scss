@@ -1,0 +1,107 @@
+@import './base/fonts.scss';
+
+@import './components/header/header.scss';
+
+@import './components/property-valuation/property-valuation.scss';
+
+@import './components/m-a-deals/m-a-deals.scss';
+
+@import './components/accounting-services/accounting-services.scss';
+
+@import './components/benefits/benefits.scss';
+
+@import './components/working/working.scss';
+
+@import './components/communication/communication.scss';
+
+@import './components/reviews/reviews.scss';
+
+@import './components/professionals/professionals.scss';
+
+@import './components/footer/footer.scss';
+
+
+////////////////////Общие стили НАЧАЛО
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.common-styles__headline {
+    font-family: 'PF Centro Slab Pro-Medium';
+    color: #2c3949;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: '';
+        height: 4px;
+        background-color: #f39f18;
+        width: 165px;
+        display: block;
+        bottom: -30px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+    .common-styles__headline {
+        font-size: 27px;
+    }
+
+    .common-styles__button {
+        font-family: 'PF Centro Slab Pro';
+        background-color: #f39f18;
+        font-size: 20px;
+        padding: 12px 30px;
+        border: none;
+        border-bottom: 3px solid #B97200;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 35px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #FFC905;
+            transition: 0.5s;
+        }
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 1140px;
+        margin: auto;
+        position: relative;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 750px) {
+
+        .common-styles__button {
+            padding: 12px 30px;
+            line-height: 1.1;
+            width: 67%;
+            font-size: 17px;
+        }
+    }
+}
+    ////////////////////Общие стили КОНЕЦ

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Abraham Lincoln';
+    src: url('./fonts/AbrahamLincoln/AbrahamLincoln.woff2') format('woff2'),
+        url('./fonts/AbrahamLincoln/AbrahamLincoln.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('./fonts/Roboto-Regular/Roboto-Regular.woff2') format('woff2'),
+        url('./fonts/Roboto-Regular/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-MediumItalic';
+    src: url('./fonts/Roboto-MediumItalic/Roboto-MediumItalic.woff2') format('woff2'),
+        url('./fonts/Roboto-MediumItalic/Roboto-MediumItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}

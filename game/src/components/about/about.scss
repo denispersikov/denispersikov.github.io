@@ -1,0 +1,140 @@
+
+.about {
+    background-color: #161616;
+
+    h4 {
+        font-size: 30px;
+        color: #717171;
+        margin-bottom: 0;
+        margin-left: 5px;
+    }
+
+    h2 {
+        font-size: 80px;
+        margin: 0;
+        margin-top: -30px;
+        position: relative;
+
+        &::after {
+            top: 81px;
+            left: 153px;
+            height: 2px;
+            width: 127px;
+        }
+    }
+}
+
+.about__common {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about__headline {
+    font-size: 50px;
+}
+
+.about__block-one-common {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__text {
+    font-family: 'MyriadPro-BoldSemiExtIt';
+    font-size: 16px;
+}
+
+.about__block-text {
+    width: 55.5%;
+    margin-top: 18px;
+    position: relative;
+    
+    &::after {
+        top: 25px;
+        left: -23px;
+        height: 171px;
+        width: 2px;
+    }
+}
+
+.about__text-two {
+    font-size: 14px;
+    color: #595959;
+}
+
+.about__block-icon-common {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+
+
+    h4 {
+        font-size: 18px;
+        margin-top: 22px;
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-family: 'MyriadPro-BoldSemiExtIt';
+        font-size: 10px;
+        width: 70%;
+        margin-bottom: 3px;
+    }
+}
+
+.about__block-icon {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 53px;
+    height: 53px;
+    border: 3px solid #ffc600;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+    .about__common {
+        padding: 0 20px;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .about__block-one-common {
+        flex-wrap: wrap;
+    }
+
+    .about__block-icon-common {
+        flex-wrap: wrap;
+    }
+
+    .about__block-text {
+        width: 88%;
+        margin-left: 15px;
+    }
+
+    .about h2 {
+        font-size: 60px;
+        margin-top: -25px;
+        margin-left: 15px;
+    }
+
+    .about h4 {
+        margin-left: 17px;
+    }
+
+    .about__block-icon {
+        margin-bottom: 40px;
+    }
+}

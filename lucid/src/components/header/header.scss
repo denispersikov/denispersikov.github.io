@@ -1,0 +1,256 @@
+
+
+// /////////// ///////////////////////HEADER НАЧАЛО ////////////////////////
+.header {
+    background-image: url(./../www/img/header.jpg); 
+    background-size: cover;
+}
+
+.header__block {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header__block-text {
+
+    h3 {
+        font-size: 14px;
+        color: #008ed6;
+        text-transform: uppercase;
+        margin-top: 80px;
+        font-weight: 700;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: #fff;
+        font-weight: 100;
+    }
+
+    p {
+        font-size: 18px;
+        color: #999999;
+        margin-top: 25px;
+        line-height: 2;
+        font-weight: 600;
+    }
+}
+
+.header__block-phone {
+    margin-top: 50px;
+}
+
+.header__block-button button {
+    width: 160px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #444348;
+    text-transform: uppercase;
+    color: #fff;
+    background: transparent;
+    font-size: 14px;
+    margin-top: 60px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 600;
+    transition: 0.5s;
+
+    &:hover {
+        background: #008ed6;
+        transition: 0.5s;
+    }
+}
+
+
+//////////////// Header media /////////////////
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+  .header__block-phone img {
+    width: 350px;
+    margin-top: 93px;
+  }
+
+  .header__block-text h1 {
+    font-size: 25px;
+  }
+
+  .header__block-text p {
+      font-size: 14px;
+  }
+
+  .header__block {
+      align-items: center;
+  }
+
+  .header__block-text {
+      margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .header__block {
+        flex-direction: column;
+    }
+
+    .header__block-phone {
+        margin: auto;
+
+        img {
+            width: 187px;
+            margin-top: 38px;
+        }
+    }
+
+    .header__block-text h1 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .header__block-text p {
+        line-height: 1.8;
+        font-size: 15px;
+    }
+
+    .header__block-button button {
+        width: 110px;
+        height: 45px;
+        line-height: 1.4;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .header__block-text {
+        margin: 0 15px;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+////////////////////// HEADER КОНЕЦ //////////////////////////////
+
+
+
+
+
+/*/////////////////////////// MENU НАЧАЛО /////////////////////////////*/
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.menu__list-item {
+    display: flex;
+}
+
+.menu__list-item a {
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 0;
+    margin: 0 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+    &:hover {
+        border-bottom: 2px solid #008ed6;
+        transition: 0.5s;
+    }
+
+}
+
+.menu__item-active {
+    border-bottom: 2px solid #008ed6;
+    padding: 8px 0;
+
+    &:hover {
+        border-bottom:none;
+    }
+}
+
+
+.menu__media-tablet {
+    display: none;
+}
+
+.menu__fixed {
+    background: #18171D;
+    position: fixed;
+    z-index: 3;
+    top: -25px;
+    left: 0;
+    width: 100%;
+    margin: 0px 100px;
+    animation-name:  show_menu;
+    animation-duration: 1s;
+}
+
+@keyframes show_menu {
+    0% {
+        opacity: 0;
+        top: -100px;
+    }
+
+    100% {
+        opacity: 1;
+        top: 0;
+    }
+}
+
+
+
+
+/* ///////////////////////////MENU  media tablet, phone ////////////////////////////////////*/
+
+@media screen and (min-width: 320px) and (max-width: 1170px) {
+
+    .menu__list-item {
+        display: none;
+    }
+    .menu__media-tablet {
+        display: block;
+        font-size: 30px;
+        color: #ccc;
+        margin-right: 20px;
+        cursor: pointer;
+
+        &:hover {
+            color: #008ed6;
+            transition: 0.5s;
+        }
+    }
+
+    .menu__logo {
+        margin-left: 20px;
+    }
+}
+
+.menu__media-tablet-block {
+    background: #25262bc4;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    width: 42%;
+    height: 207px;
+    z-index: 2;
+
+    a {
+        font-size: 16px;
+        color: #fff;
+        margin: 14px -20px;
+        display: block;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+
+        &:hover {
+            color: #008ed6;
+            padding-bottom: 3px;
+        }
+    }
+}
+
+// /* ///////////////////////////MENU КОНЕЦ ////////////////////////////////////*/

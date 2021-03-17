@@ -1,0 +1,99 @@
+.reviews {
+    background-color: #e5e5e5;
+    position: relative;
+
+    &::after {
+        content: '';
+        background: url(./../www/img/bah_3.png);
+        width: 100%;
+        height: 6px;
+        position: absolute;
+        top: -5px;
+        left: 0;
+    }
+
+    &::before {
+        content: '';
+        background: url(./../www/img/bah_3.png);
+        width: 100%;
+        height: 6px;
+        position: absolute;
+        transform: rotate(180deg);
+        bottom: -6px;
+        left: 0;
+    }
+}
+
+.reviews__headline {
+    text-transform: uppercase;
+    margin-top: 88px;
+    padding-top: 60px;
+}
+
+.reviews__headline-text {
+    font-family: 'Raleway-Regular';
+    font-size: 15px;
+    color: #333;
+    margin-top: 55px;
+    text-align: center;
+}
+
+.reviews__block {
+    text-align: center;
+    
+    img {
+        width: 110px;
+        height: 110px;
+        border: 7px solid #f39f18;
+        border-radius: 50%;
+        margin-top: 58px;
+        margin-bottom: 36px;
+    }
+
+    h3 {
+        font-family: 'Raleway-Bold';
+        font-size: 18px;
+        color: #333;
+        margin-bottom: -10px;
+    }
+}
+
+.reviews__company {
+    font-family: 'Raleway-Regular';
+    color: #6e7b8b;
+    font-size: 13px;
+    margin-top: 18px;
+}
+
+.reviews__text {
+    font-family: 'Raleway-Regular';
+    font-size: 14px;
+    color: #333;
+    line-height: 1.7;
+    width: 68%;
+    text-align: center;
+    margin: auto;
+    margin-top: 18px;
+    padding-bottom: 132px;
+}
+
+
+
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+    .reviews__text {
+        width: 77%;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .reviews__headline h2 {
+        font-size: 26px;
+    }
+
+    .reviews__text {
+        width: 74%;
+    }
+}

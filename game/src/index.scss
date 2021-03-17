@@ -1,0 +1,52 @@
+@import './base/fonts.scss';
+
+
+@import './components/header/header.scss';
+
+@import './components/about/about.scss';
+
+@import './components/projects/projects.scss';
+
+@import './components/strategic-process/strategic-process.scss';
+
+@import './components/provided/provided.scss';
+
+@import './components/our-team/our-team.scss';
+
+@import './components/testimonials/testimonials.scss';
+
+@import './components/blogs/blogs.scss';
+
+@import './components/contact-us/contact-us.scss';
+
+@import './components/footer/footer.scss';
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'MyriadPro-Semibold', Arial, Helvetica, sans-serif;
+}
+
+.style-common__headline-color {
+    color: #ffc600;
+}
+
+.style-common__headline {
+    font-size: 30px;
+    margin: 0;
+
+    &::after {
+        content: '';
+        position: absolute;
+        background-color: #c5c5c5;
+    }
+}
+
+
+.container {
+    max-width: 1055px;
+    margin: auto;
+}

@@ -1,0 +1,79 @@
+
+.communication__common {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.communication__text {
+    font-family: 'Raleway-Regular';
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.communication__headline h2 {
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.communication__block {
+    background-color: #e5e5e5;
+    width: 262px;
+    text-align: center;
+    margin: 0 15px;
+
+    h3 {
+        font-family: 'Raleway-Bold';
+        font-size: 16px;
+        color: #333;
+        margin-top: 26px;
+        margin-bottom: -8px;
+    }
+
+    img {
+        width: 110px;
+        height: 110px;
+        border: 7px solid #d6d6d6;
+        border-radius: 50%;
+        margin-top: 58px;
+    }
+
+}
+
+.communication__position {
+    font-family: 'Raleway-Regular';
+    color: #6e7b8b;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.communication__phone {
+    font-family: 'Roboto-Bold';
+    font-size: 16px;
+    color: #333;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .communication__common {
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+
+    .communication__block {
+        margin: 10px 15px;
+    }
+
+    .communication__text {
+        width: 81%;
+        margin: auto;
+        padding-top: 57px;
+    }
+
+
+}

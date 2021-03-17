@@ -1,0 +1,206 @@
+.professionals {
+    background-color: #f9f9f9;
+}
+
+.professionals__block-one {
+    width: 68%;
+}
+
+.professionals__headline .common-styles__headline {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 88px;
+
+   
+}
+
+.professionals__headline-text {
+    font-family: 'Raleway-Regular';
+    font-size: 15px;
+    color: #333;
+    margin-top: 55px;
+    width: 91%;
+}
+
+.professionals__block-text {
+    font-family: 'Raleway-Bold';
+    font-size: 13px;
+    color: #333;
+    margin-top: 25px;
+    line-height: 1.3;
+}
+
+.professionals__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3px;
+    text-align: center;
+    width: 23%;
+    margin-top: 27px;
+}
+
+.professionals__common {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.professionals-block-common {
+    display: flex;
+    align-items: baseline;
+}
+
+.professionals__block-two {
+    background-color: #dddddd;
+    max-width: 360px;
+    border-bottom: #737373 4px solid;
+    margin-top: 105px;
+    margin-bottom: 148px;
+    width: 100%;
+
+    h3 {
+        font-family: 'PF Centro Slab Pro-Medium';
+        font-weight: 300;
+        font-size: 28px;
+        color: #2c3949;
+        margin-left: 40px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-family: 'PF Centro Slab Pro-Medium';
+        font-size: 13px;
+        color: #5e6267;
+        width: 67%;
+        margin-left: 40px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    input {
+        display: block;
+        padding-left: 40px;
+        border: none;
+        border-top: 2px solid #737373;
+        background-color: #c0c0c0;
+        height: 46px;
+        width: 286px;
+        margin: auto;
+        margin-bottom: 18px;
+    }
+
+    label {
+        font-family: 'Raleway-Regular';
+        font-size: 13px;
+        color: #97a4b2;
+        padding-left: 40px;
+    }   
+}
+
+
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+    .professionals__common {
+        flex-wrap: wrap;
+    }
+
+    .professionals__block-one {
+        width: 100%;
+    }
+
+    .professionals__headline-text {
+        text-align: center;
+        margin: auto;
+        margin-top: 55px;
+        margin-bottom: 20px;
+    }
+
+    .professionals-block-common {
+        flex-wrap: wrap;
+    }
+
+    .professionals__headline .common-styles__headline {
+        text-align: center;
+    }
+
+    .professionals__block-text {
+        width: 65%;
+    }
+
+    .professionals__block {
+        width: 47%;
+    }
+
+    .professionals__block-two {
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .professionals__common {
+        flex-wrap: wrap;
+    }
+
+    .professionals__block-one {
+        width: 100%;
+    }
+
+    .professionals-block-common {
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+
+    .professionals__headline .common-styles__headline {
+        text-align: center;
+        font-size: 26px;
+    }
+
+
+    .professionals__headline-text {
+        text-align: center;
+        margin: auto;
+        padding-top: 57px;
+    }
+
+    .professionals__block {
+        width: 100%;
+    }
+
+    .professionals__block-text {
+        width: 60%;
+    }
+
+    .professionals__block-two h3 {
+        margin-left: 20px;
+    }
+
+    .professionals__block-two p {
+        width: 81%;
+        margin-left: 20px;
+    }
+
+    .professionals__block-two label {
+        padding-left: 26px;
+    }
+
+    .professionals__block-two input {
+        height: 40px;
+        width: 86%;
+    }
+
+    .professionals__block-two {
+        margin: 50px auto;
+        margin-bottom: 70px;
+    }
+    
+
+    
+}
