@@ -230,6 +230,10 @@ body {
 .header__grape-common {
     position: relative;
     top: 174px;
+
+    .carousel-control-next {
+        z-index: 100;
+    }
 }
 
 .header__botll {
@@ -239,7 +243,9 @@ body {
     background-position: center;
     position: relative;
     top: 205px;
+
 }
+
 
 .header__botl-text {
     

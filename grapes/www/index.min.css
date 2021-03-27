@@ -205,6 +205,8 @@ body {
 .header__grape-common {
   position: relative;
   top: 174px; }
+  .header__grape-common .carousel-control-next {
+    z-index: 100; }
 
 .header__botll {
   background-image: url(./../www/img/header-botl.png);
