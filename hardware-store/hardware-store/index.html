@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hardware-store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="box">
+            <div class="header__common">
+                <div class="header__logo">
+                    <a class="header__logo-link" href="#"><img src="img/header/Subtract.png" alt="">
+                        <span class="header__logo-text">Lo<span>GO</span></span>
+                    </a>
+                </div>
+                <ul class="header__menu">
+                    <li class="header__phone">
+                        <img src="img/header/smartphone.png" alt="">
+                        <p>+38 (050) 333-37-96</p>
+                        <img src="img/header/polygon-1.png" alt="">
+                    </li>
+                    <li>
+                        <a href="#">Каталог</a>
+                        <img src="img/header/polygon-1.png" alt="">
+                    </li>
+                    <li>
+                        <a href="#">Sale %</a>
+                    </li>
+                    <li>
+                        <a href="#">Информация</a>
+                        <img src="img/header/polygon-1.png" alt="">
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+
+                <div class="header__icon-common">
+
+                    <li class="header__phone header__phone-two">
+                        <img src="img/header/smartphone.png" alt="">
+                        <p>+38 (050) 333-37-96</p>
+                        <img src="img/header/polygon-1.png" alt="">
+                    </li>
+
+                    <div class="header__icon-block">
+                        <img class="header__icon" src="img/header/search.png" alt="">
+                        <img class="header__hover header__icon--search" src="img/header/search-hover.png" alt="">
+                    </div>
+
+                    <div class="header__icon-block">
+                        <img class="header__icon" src="img/header/user.png" alt="">
+                        <img class="header__hover" src="img/header/user-hover.png" alt="">
+                    </div>
+
+                    <div class="header__icon-block">
+                        <img class="header__icon" src="img/header/like.png" alt="">
+                        <img class="header__hover" src="img/header/like-hover.png" alt="">
+                    </div>
+
+                    <div class="header__icon-block header__icon-block--index">
+                        <div class="header__index-common hidden">
+                            <span class="header__index"></span>
+                        </div>
+                        <img class="header__icon header__basket" src="img/header/basket.png" alt="">
+                        <img class="header__hover" src="img/header/basket-hover.png" alt="">
+                    </div>
+                </div>
+
+                <button class="header__menu-media">
+                    <img src="img/header/menu-tablet.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="header__phone-trigger-common hidden">
+            <div class="header__phone-trigger">
+                <img src="img/header/vodafone.png" alt="">
+                <p>+38 (050) 333-37-96</p>
+            </div>
+
+            <div class="header__phone-trigger">
+                <img src="img/header/lifecell.png" alt="">
+                <p>+38 (050) 333-37-96</p>
+            </div>
+
+            <div class="header__phone-trigger">
+                <img src="img/header/kyivstar.png" alt="">
+                <p>+38 (050) 333-37-96</p>
+            </div>
+        </div>
+
+        <div class="menu-media hidden">
+            <div class="menu-media__close">
+                <button><img src="img/menu-media/close.png" alt=""></button>
+            </div>
+            <nav class="menu-media__common">
+                <ul>
+                    <li class="menu-media__item">
+                        <div class="menu-media__link-polygon">
+                            <a class="menu-media__link" href="#">Крупная бытовая техника</a>
+                            <img class="menu-media__polygon" src="img/menu-media/polygon.png" alt="">
+                        </div>
+                        <ul class="menu-media__submenu hidden">
+                            <li><a class="menu-media__submenu-link" href="#">Встраиваемые духовые шкафы</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Встраиваемые варочные поверхности</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Кухонные вытяжки</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Измельчители пищевых отходов</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Аксессуары к вбт</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-media__item">
+                        <div class="menu-media__link-polygon">
+                            <a class="menu-media__link" href="#">Встраиваемая техника</a>
+                            <img class="menu-media__polygon" src="img/menu-media/polygon.png" alt="">
+                        </div>
+                        <ul class="menu-media__submenu hidden">
+                            <li><a class="menu-media__submenu-link" href="#">Встраиваемые духовые шкафы</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Встраиваемые варочные поверхности</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Кухонные вытяжки</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Измельчители пищевых отходов</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Аксессуары к вбт</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-media__item">
+                        <div class="menu-media__link-polygon">
+                            <a class="menu-media__link" href="#">Уход за домом и одеждой</a>
+                            <img class="menu-media__polygon" src="img/menu-media/polygon.png" alt="">
+                        </div>
+                        <ul class="menu-media__submenu hidden">
+                            <li><a class="menu-media__submenu-link" href="#">Встраиваемые духовые шкафы</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Встраиваемые варочные поверхности</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Кухонные вытяжки</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Измельчители пищевых отходов</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Аксессуары к вбт</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-media__item">
+                        <div class="menu-media__link-polygon">
+                            <a class="menu-media__link" href="#">Техника для кухни</a>
+                            <img class="menu-media__polygon" src="img/menu-media/polygon.png" alt="">
+                        </div>
+                        <ul class="menu-media__submenu hidden">
+                            <li><a class="menu-media__submenu-link" href="#">Встраиваемые духовые шкафы</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Встраиваемые варочные поверхности</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Кухонные вытяжки</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Измельчители пищевых отходов</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Аксессуары к вбт</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-media__item">
+                        <div class="menu-media__link-polygon">
+                            <a class="menu-media__link" href="#">Информация</a>
+                            <img class="menu-media__polygon" src="img/menu-media/polygon.png" alt="">
+                        </div>
+                        <ul class="menu-media__submenu hidden">
+                            <li><a class="menu-media__submenu-link" href="#">Встраиваемые духовые шкафы</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Встраиваемые варочные поверхности</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Кухонные вытяжки</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Измельчители пищевых отходов</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Аксессуары к вбт</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-media__item">
+                        <div class="menu-media__link-polygon">
+                            <a class="menu-media__link" href="#">Контакты</a>
+                            <img class="menu-media__polygon" src="img/menu-media/polygon.png" alt="">
+                        </div>
+                        <ul class="menu-media__submenu hidden">
+                            <li><a class="menu-media__submenu-link" href="#">Встраиваемые духовые шкафы</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Встраиваемые варочные поверхности</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Кухонные вытяжки</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Измельчители пищевых отходов</a></li>
+                            <li><a class="menu-media__submenu-link" href="#">Аксессуары к вбт</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <section class="slider">
+        <div class="box">
+            <div class="slider__common">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="slider__button active" aria-current="true" aria-label="Slide 1">
+                        </button>
+                        <button class="slider__button" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="1" aria-label="Slide 2">
+                        </button>
+                        <button class="slider__button" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="2" aria-label="Slide 3">
+                        </button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/slider/slider.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider/slider.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider/slider.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+
+                    <div class="slider__previous">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <div class="slider__previous-block">
+                                <span class="slider__previous-icon carousel-control-prev-icon"
+                                    aria-hidden="true"></span>
+                            </div>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                    </div>
+
+                    <div class="slider__next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <div class="slider__next-block">
+                                <span class="slider__next-icon carousel-control-next-icon" aria-hidden="true"></span>
+                            </div>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="equipment">
+        <div class="box">
+            <div class="equipment__common">
+                <div class="equipment__item">
+                    <img src="img/equipment/equipment-1.png" alt="">
+                    <h2>Крупная бытовая техника</h2>
+                </div>
+
+                <div class="equipment__item">
+                    <img src="img/equipment/equipment-2.png" alt="">
+                    <h2>Встраиваемая техника</h2>
+                </div>
+
+                <div class="equipment__item">
+                    <img src="img/equipment/equipment-3.png" alt="">
+                    <h2>Уход за домом и одеждой</h2>
+                </div>
+
+                <div class="equipment__item">
+                    <img src="img/equipment/equipment-4.png" alt="">
+                    <h2>Техника для кухни</h2>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="new-arrivals">
+        <div class="box">
+            <h2>Новые поступления</h2>
+
+            <div id="carouselExampleIndicators__2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators__2" data-bs-slide-to="0"
+                        class="slider__button active" aria-current="true" aria-label="Slide 1"></button>
+                    <button class="slider__button" type="button" data-bs-target="#carouselExampleIndicators__2"
+                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button class="slider__button" type="button" data-bs-target="#carouselExampleIndicators__2"
+                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="new-arrivals__common">
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">1</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/1.png" alt="">
+                                <p class="new-arrivals__heading">Духовой шкаф электрический</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">8499</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">2</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/2.png" alt="">
+                                <p class="new-arrivals__heading">Комбинированная плита GORENJE K</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">9599</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">3</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/3.png" alt="">
+                                <p class="new-arrivals__heading">Робот-пылесос Xiaomi RoboRock S5</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">9999</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">4</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/4.png" alt="">
+                                <p class="new-arrivals__heading">Бойлер ATLANTIC OPRO Sample R 80</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">2199</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">5</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/5.png" alt="">
+                                <p class="new-arrivals__heading">Пылесос без мешка BOSCH BGS2U2030</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">3299</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="new-arrivals__common">
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">1</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/1.png" alt="">
+                                <p class="new-arrivals__heading">Духовой шкаф электрический</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">8499</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">2</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/2.png" alt="">
+                                <p class="new-arrivals__heading">Комбинированная плита GORENJE K</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">9599</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">3</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/3.png" alt="">
+                                <p class="new-arrivals__heading">Робот-пылесос Xiaomi RoboRock S5</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">9999</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">4</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/4.png" alt="">
+                                <p class="new-arrivals__heading">Бойлер ATLANTIC OPRO Sample R 80</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">2199</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">5</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/5.png" alt="">
+                                <p class="new-arrivals__heading">Пылесос без мешка BOSCH BGS2U2030</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">3299</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="new-arrivals__common">
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">1</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/1.png" alt="">
+                                <p class="new-arrivals__heading">Духовой шкаф электрический</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">8499</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">2</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/2.png" alt="">
+                                <p class="new-arrivals__heading">Комбинированная плита GORENJE K</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">9599</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">3</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/3.png" alt="">
+                                <p class="new-arrivals__heading">Робот-пылесос Xiaomi RoboRock S5</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">9999</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">4</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/4.png" alt="">
+                                <p class="new-arrivals__heading">Бойлер ATLANTIC OPRO Sample R 80</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">2199</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="new-arrivals__item">
+                                <span class="new-arrivals__id hidden">5</span>
+                                <img class="new-arrivals__img-main" src="img/new-arrivals/5.png" alt="">
+                                <p class="new-arrivals__heading">Пылесос без мешка BOSCH BGS2U2030</p>
+                                <img class="new-arrivals__stars" src="img/new-arrivals/item.png" alt="">
+                                <div class="new-arrivals__price-currency">
+                                    <p class="new-arrivals__price">3299</p>
+                                    <span class="new-arrivals__currency">гр</span>
+                                </div>
+                                <div class="new-arrivals__button-common">
+                                    <button class="new-arrivals__button">Купить</button>
+                                </div>
+                                <div class="new-arrivals__like">
+                                    <img class="new-arrivals__like-img" src="img/new-arrivals/like.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="box">
+            <h2>Есть к нам вопросы?</h2>
+            <div class="footer__common">
+                <div class="footer__item">
+                    <p>Телефон</p>
+                    <p class="footer__number">+38 (050) 333-37-96</p>
+                </div>
+
+                <div class="footer__schedule">
+                    <p>График работы CALL-центра</p>
+                    <p class="footer__text">Пн - Пт: 09:00 - 18:00,</p>
+                    <p class="footer__text">Сб - Вс: Выходной</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="basket hidden">
+        <div class="basket__heading">
+            <h2 class="basket__heading-text"></h2>
+            <button class="basket__close"><img src="img/basket/close.png" alt=""></button>
+        </div>
+        <div class="basket__common">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script src="basket.js"></script>
+    <script src="dropdown-menus.js"></script>
+</body>
+
+</html>
