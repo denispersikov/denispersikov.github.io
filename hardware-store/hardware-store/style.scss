@@ -16,6 +16,7 @@ body {
 
 .menu-media__polygon-transform {
     transform: rotate(90deg);
+    transition: 0.5s;
 }
 
 .header {
@@ -160,7 +161,6 @@ body {
         border-radius: 50%;
         background: linear-gradient(47.73deg, #6368E5 15.48%, #B884F3 81.25%);
 
-
         span {
             position: absolute;
             left: 5px;
@@ -231,7 +231,6 @@ body {
     .carousel-inner {
         width: 1080px;
     }
-
 }
 
 .equipment {
@@ -353,7 +352,6 @@ body {
             right: 10px;
             display: none;
         }
-
 
         &:hover .new-arrivals__like {
             display: block;
@@ -607,6 +605,7 @@ body {
 
     .menu-media__polygon {
         margin-left: 43px;
+        transition: 0.5s;
     }
 
     .menu-media__submenu {
